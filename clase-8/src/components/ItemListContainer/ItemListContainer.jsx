@@ -28,7 +28,9 @@ export const ItemListContainer = () => {
             })
         }
         
-    }, [])
+    }, [idCategoria])
+    //[] cuando se renderiza
+    //[prop] cuando se renderiza y cuando se actualiza
     return (
         <div className='row cardProductos'>
             {productos}
