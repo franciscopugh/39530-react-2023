@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Notebook",
+        "marca": "Lenovo",
+        "modelo": "Y510P",
+        "precio": 60000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/notebook-lenovo.jpg?alt=media&token=c259fd0b-c339-4491-a797-1c298cdaee5b"
+    },
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Celular",
+        "marca": "Xiomi",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/xiaomi-mi-9.jpg?alt=media&token=e06258eb-5631-400b-ab66-93702850c699"
+    },
+    {
+        "id": 3,
+        "idCategoria": 3,
+        "nombre": "Smart Tv",
+        "marca": "Novatech",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/smart-tv-novatech.jpg?alt=media&token=8a32949f-cdfb-42ee-afbb-520a5ff6acf8"
+    },
+    {
+        "id": 4,
+        "idCategoria": 4,
+        "nombre": "Camara ",
+        "marca": "iQual",
+        "modelo": "C40",
+        "precio": 8000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/camara-iqual.jpg?alt=media&token=f1acb5e6-d0db-49e3-95d3-53b75e47275f"
+    },
+    {
+        "id": 5,
+        "idCategoria": 4,
+        "nombre": "Mouse",
+        "marca": "Logitech",
+        "modelo": "G502",
+        "precio": 1400,
+        "stock": 7,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/mouse-logitech.jpg?alt=media&token=bc028f48-a415-4c8d-ac7d-7d12509de2c3"
+    },
+    {
+        "id": 6,
+        "idCategoria": 4,
+        "nombre": "Auriculares",
+        "marca": "Motorola",
+        "modelo": "Pulse",
+        "precio": 4000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/motorola-pulse.jpg?alt=media&token=4a97f0aa-6f8f-4de0-afa8-9ebfbfd9227c"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Celular",
+        "marca": "Apple",
+        "modelo": "Iphone X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/iphone-x.jpg?alt=media&token=27ee7edf-86a6-44e1-94f9-b36cfab95066"
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Apple TV",
+        "marca": "Apple ",
+        "modelo": "32 Gb",
+        "precio": 45000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/apple-tv.jpg?alt=media&token=dd451300-87a9-4fbb-99c6-a4eb92a85f21"
+    },
+    {
+        "id": 9,
+        "idCategoria": 4,
+        "nombre": "Parlante",
+        "marca": "Kalley",
+        "modelo": "SPK200",
+        "precio": 34000,
+        "stock": 21,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/parlante-kalley.png?alt=media&token=068f1755-801c-468c-8952-bba87be4ce36"
+    },
+    {
+        "id": 10,
+        "idCategoria": 1,
+        "nombre": "Mac Air",
+        "marca": "Apple",
+        "modelo": "M1 2020",
+        "precio": 13000,
+        "stock": 25,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/mac-air.jpg?alt=media&token=f997ed05-1d14-48ec-bd03-37386d5f2df3"
+    },
+    {
+        "id": 11,
+        "idCategoria": 2,
+        "nombre": "Celular",
+        "marca": "Samsung",
+        "modelo": "S20",
+        "precio": 85000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/samsung-s20.jpg?alt=media&token=91706d0e-dfb9-445f-8871-9bc02a457d4e"
+    },
+    {
+        "id": 12,
+        "idCategoria": 1,
+        "nombre": "Notebook",
+        "marca": "HP",
+        "modelo": "Pavilion 15",
+        "precio": 120000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/hp-pavilion.jpg?alt=media&token=d4bb35f5-80d0-4edd-b585-f836aefe2961"
+    }
+
+]
