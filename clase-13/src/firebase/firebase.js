@@ -47,7 +47,6 @@ export const getProductos = async() => {
 
 export const getProducto = async(id) => {
     const producto = await getDoc(doc(db, "productos", id))
-    console.log(producto.data())
     const item = {...producto.data(), id: producto.id}
     return item
 }
@@ -58,4 +57,22 @@ export const updateProducto = async(id, info) => {
 
 export const deleteProducto = async(id) => {
     await deleteDoc(doc(db, "productos", id))
+}
+
+//Create orden Compra
+
+export const createOrdenCompra = async(cliente, productos,precioTotal, fecha) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
+        datosCliente: cliente,
+        productos: productos,
+        precioTotal: precioTotal, 
+        fecha: fecha
+    })
+    return ordenCompra
+}
+
+export const getOrdenCompra = async(id) => {
+    const ordenCompra = await getDoc(doc(db, "ordenCompra", id))
+    const oCompra = {...ordenCompra.data(), id: ordenCompra.id}
+    return oCompra
 }

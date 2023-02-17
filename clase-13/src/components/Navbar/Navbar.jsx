@@ -15,7 +15,7 @@ const Navbar = () => {
                     <Secciones/>
                     <Categorias/>
                 </ul>
-                <CartWidget cantCarrito={5}/>
+                <CartWidget/>
                 <BotonDarkMode/>
             </div>
         </div>

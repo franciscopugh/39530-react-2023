@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom"
 import { ItemList } from "../ItemList/ItemList"
+import { useCarritoContext } from "../../context/CarritoContext"
 export const Cart = () => {
-    const carrito = [
-        {id: 1, nombre: "Arroz", modelo: "1", img: 'https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/xiaomi-mi-9.jpg?alt=media&token=e06258eb-5631-400b-ab66-93702850c699', precio: 400, cantidad: 5 },
-        {id: 2,nombre: "Fideos", modelo: "2", img: 'https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/xiaomi-mi-9.jpg?alt=media&token=e06258eb-5631-400b-ab66-93702850c699',precio: 300, cantidad: 2 },
-        {id: 3,nombre: "Manteca", modelo: "3",img: 'https://firebasestorage.googleapis.com/v0/b/react-39530-2023.appspot.com/o/xiaomi-mi-9.jpg?alt=media&token=e06258eb-5631-400b-ab66-93702850c699',precio: 500, cantidad: 3 },
-    ]
+    const {carrito, totalPrice, emptyCart } = useCarritoContext()
     return(
         <>
             { carrito.length === 0 
@@ -18,8 +15,8 @@ export const Cart = () => {
                 <div className="container cartContainer">
                     {<ItemList products={carrito} plantilla={'itemCart'}/>}
                     <div className="divButtons">
-                        <p>Resumen de la compra: precio total</p>
-                        <button className="btn btn-danger">Vaciar carrito</button>
+                        <p>Resumen de la compra: $ {new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
+                        <button className="btn btn-danger" onClick={() => emptyCart()}>Vaciar carrito</button>
                         <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
                         <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
                     </div>
